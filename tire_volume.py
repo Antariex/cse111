@@ -24,7 +24,7 @@ if purchase == "yes":
     user_phone = input("Please, enter your phone number: ")
 
 # Get the current date
-current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
 # Open the volumes.txt file for appending
 with open('volumes.txt', 'a') as file:
