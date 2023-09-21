@@ -1,7 +1,7 @@
 #Import the math module
 import math
 
-#Import the class datetime from the datetime module
+#Import the datetime module
 import datetime
 
 #Print a description of this program to the user
