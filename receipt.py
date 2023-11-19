@@ -54,10 +54,10 @@ def main():
         print(f"Sales Tax: {sales_tax_amount:.2f}")
         print(f"Total: {total_amount_due: .2f}")
         print("\nThank you for shopping at the Inkom Emporium.")
-
         current_datetime = datetime.now().strftime("%a %b %d %H:%M:%S %Y")
         print(current_datetime)
-
+        print("\nWe value your feedback! Please take a moment to complete an online survey at: www.inkomemporium.com/survey")
+        
     except FileNotFoundError:
         print("Error: missing file. One or more files not found.")
     except KeyError as e:
